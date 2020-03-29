@@ -1,4 +1,4 @@
-module cgqdlh
+module github.com/SoliDaryl/cgqdlh
 
 go 1.12
 
