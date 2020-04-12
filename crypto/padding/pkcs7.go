@@ -18,6 +18,7 @@ func AddPKCS7(c cipher.Block, data []byte) (out []byte){
         l = c.BlockSize()
         suffix = make([]byte, l)
     } else {
+        l = c.BlockSize() - l
         suffix = make([]byte, l)
     }
 
