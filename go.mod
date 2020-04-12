@@ -1,4 +1,4 @@
-module github.com/SoliDaryl/cgqdlh
+module github.com/cgqdlh/go-kit
 
 go 1.12
 
